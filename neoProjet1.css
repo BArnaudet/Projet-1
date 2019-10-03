@@ -1,0 +1,731 @@
+* {
+	box-sizing: border-box;
+	padding: Opx;
+	margin: 0px;
+}
+
+li {
+	list-style-type: none;
+	margin-top:10px;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+	font-family: 'EB Garamond', serif;
+	
+}
+
+.wallpaper {
+	height: 400px;
+	width: 100%;
+	margin-left: -1px;  
+}
+
+
+.dribbbleImg {
+	height:25px;
+	width: 60px;   
+}
+
+.pWall {
+	width: 50%;
+	margin-left: 150px;
+	color: rgb(97, 52, 0);
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.1em;
+	
+}
+
+.signWall {
+	border: 1px solid none;
+	border-radius: 7px;
+	width: 100px;
+	text-align: center;
+	background-color: rgb(172, 36, 2);
+	color: rgb(255, 255, 255);
+	margin-left: 150px;
+	padding: 10px 10px 10px 10px;
+}
+
+.art {
+	width: 50%;
+	margin-left: 150px;
+}
+
+.artBy {
+	color: rgb(97, 158, 0);
+}
+
+h1 {
+	color: rgb(228, 129, 0);
+	width: 50%;
+	margin-left: 150px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(61, 61, 61);
+	height: 50px;
+	align-items: center;
+	padding-bottom: 10px;   
+	width: 100%;
+}
+
+.formHead {
+	width: 70%; 
+}
+
+.burger {
+	display: none;		
+}
+
+.headerList a {
+	color: rgb(204, 204, 204);
+}
+
+.headerListHid {
+	display: none;
+}
+
+.headerList2 {
+	color: white; 
+}
+
+.spanSignUp {
+	border: 1px solid white;
+	border-radius: 7px;
+	padding: 10px 10px 10px 10px;
+}
+
+.spanSignIn {
+	color: rgb(204, 204, 204);
+}
+
+.topPrez {
+	background-color: #E3A550;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	justify-content: space-between;   
+}
+
+.topH1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.popBorder {
+	border: 1px solid rgb(180, 180, 180);
+	border-radius: 7px;
+	padding: 10px 20px 10px 20px;
+	color: black;
+}
+
+.spanPop {
+	color: black;
+}
+
+
+.filtBorder {
+	border: 1px solid rgb(180, 180, 180);
+	border-radius: 7px;
+	padding: 10px 20px 10px 20px;
+	margin-right: 10px;
+}
+
+
+.altNav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	border: 1px solid none;
+	background-color: rgb(231, 231, 231);
+	height: 100px;
+	border-radius: 7px;
+}
+
+.altNav a {
+	color: rgb(165, 165, 165);
+	
+}
+
+.altNavList:hover a {
+	border: 1px solid none;
+	opacity: 0.5;
+	color: rgb(27, 178, 248);
+	background-color: rgb(255, 255, 255);
+	border-radius: 7px;
+	padding: 10px 10px 10px 10px; 
+}
+
+.filterImg {
+	height: 20px;
+	width: 20px;
+	padding-top: 10px;
+	padding-right: 10px;	
+}
+
+.loupe {
+	height: 15px;
+	width: 20px;
+	margin-right: -3px;
+}
+
+
+.arrow {
+	height: 20px;
+	width: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.imgRes {
+	width:50px;
+	height:50px;
+}
+
+.signup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;    
+}
+
+.signBorder {
+	background-color: rgba(253, 76, 209, 0.733);
+	color: white;
+	border: 1px solid none;
+	border-radius: 7px;
+	padding: 10px 10px 10px 10px; 
+	width: 25%;
+	text-align: center;
+}
+
+.signInBorder {
+	color: rgb(0, 153, 255);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 0.8em;
+	height: 200px;
+	border: 1px solid none;
+	background-color: rgb(231, 231, 231);
+	border-radius: 7px;
+}
+
+.footerStart {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;  
+	width: 200px;
+	text-align: center;
+	color: rgb(139, 139, 139);
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.footerLiens {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	width: 200px;
+	margin-top:15px;
+}
+
+.socialM {
+	width: 20px;
+	height: 20px;
+	
+}
+
+.footerDribbble {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	flex-wrap: wrap;
+	height: 140px;
+	width: 300px;
+	color: rgb(139, 139, 139);
+	margin-top: 20px;
+}
+
+
+.h3Dribbble {
+	width:100px;
+	margin: auto; 
+	margin-top: 20px;
+}	
+
+.footerHiring {
+	display: flex;
+	flex-direction: column;  
+	align-items: center;
+	width: 15%;
+	margin-top: 20px;
+}
+
+.h3Hiring {
+	width:100%;
+	text-align: center;
+}
+
+.h3Directories {
+	width: 100%;
+	text-align: center;
+	color: grey;
+}
+
+.footerDirectories {
+	display: flex;
+	flex-direction: column;  
+	align-items: center;
+	width: 10%;
+	margin-top: 20px;
+}
+
+.liPost {
+	padding-right: 65px;
+}
+
+.liJobs {
+	padding-right: 35px;
+}
+
+
+
+.footerJobs {
+	display: flex;
+	flex-direction: column; 
+	align-items: center;
+	width: 25%;
+	margin-top: 20px;
+}
+
+.logoF1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap ;
+}
+
+
+.logo {
+	height: 40px;
+	width: 40px;  
+}
+
+.logo1bis {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	width: 100%;
+}
+
+.spanJobs {
+	margin-left: 10px;
+}
+
+.G {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.h3Jobs {
+	width:200px;
+	margin: auto;
+}
+
+.footerEnd {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 200px;
+	margin-top: 20px;
+}
+
+.dsk-0 {display: none;}
+.dsk-1{width:8.33%;}
+.dsk-2{width:16.66%;}
+.dsk-3{width:25%;}
+.dsk-4{width:33.33%;}
+.dsk-5{width:41.66%;}
+.dsk-6{width:50%;}
+.dsk-7{width:58.33%;}
+.dsk-8{width:66.66%;}
+.dsk-9{width:75%;}
+.dsk-10{width:83.33%;}
+.dsk-11{width:91.66%;}
+.dsk-12{width:100%;}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.artimage img {
+	height: 20rem;
+	object-fit: scale-down;
+	border:solid 5px rgb(231, 231, 231);
+}
+
+.artimage {
+	text-align: center;
+}
+
+@media screen and (max-width: 869px) {
+	
+	.mob-0 {display: none;}
+    .mob-1{width:8.33%;}
+    .mob-2{width:16.66%;}
+    .mob-3{width:25%;}
+    .mob-4{width:33.33%;}
+    .mob-5{width:41.66%;}
+    .mob-6{width:50%;}
+    .mob-7{width:58.33%;}
+    .mob-8{width:66.66%;}
+    .mob-9{width:75%;}
+    .mob-10{width:83.33%;}
+    .mob-11{width:91.66%;}
+    .mob-12{width:100%;}
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+		justify-content: space-evenly;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+	
+	.artimage {
+        text-align: center;
+    }
+
+    .artimage img{
+        height: 20rem;
+		object-fit: scale-down;
+		border:solid 5px rgb(231, 231, 231);
+    }
+
+	.header {
+		display: flex;
+		justify-content: center;
+	}
+	.wallpaper {
+		height: 180px;
+		width: 100%;
+		margin-left: 0px;
+	}
+	
+	.topPrez {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.topH1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.art {
+		text-align: center;
+		margin-left: 0px;
+	}
+	
+	.pWall {
+		width: 80%;
+		margin-left: 0px;
+		font-size: 0.9em;
+		text-align: center;
+	}
+	
+	.signWall {
+		width: 100px;
+		margin-left: 0px;
+	}
+	
+	h1 {
+		width: 80%;
+		font-size: 1em;
+		margin-left: 0px;
+		text-align: center;
+	}
+	
+	.burger {
+		display: flex;
+	}
+	
+	.burgerIcone {
+		height: 25px;
+		width: 25px;
+	}
+	
+	.headerList {
+		display: none;
+	}
+	
+	.headerList1 {
+		display: flex;
+		justify-content: center;
+		width: 50%;
+		margin-left: 50px;
+		
+	}
+	
+	.headerList2 {
+		display: flex;
+		justify-content: flex-end;
+		width: 50%;
+		margin-right: 20px;
+	}
+	
+	
+	.altNav {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.altNavList {
+		display: none;
+	}
+	
+	
+	
+	footer {
+		flex-direction: column;
+		height: 1000px;
+	}
+	
+	
+	
+	.footerDribbble {
+		align-items: flex-start;
+		
+	}
+	
+	.h3Jobs {
+		text-align: center;
+		width: 200px;
+		
+	}
+	.footerJobs {
+		align-items: center;
+		width: 200px;
+		
+		
+	}
+	
+	.h3Hiring {
+		text-align: center;
+		width: 200px;
+	}
+	
+	.footerHiring {
+		align-items: center;
+		width: 200px;
+	}
+	
+	
+	.h3Directories {
+		text-align: center;
+		width: 200px;
+	}
+	
+	.footerDirectories {
+		align-items: center;
+		width: 200px;
+	}
+}
+
+@media screen and (min-width: 870px) and (max-width:1260px) {
+
+    .tab-0 {display: none;}
+    .tab-1{width:8.33%;}
+    .tab-2{width:16.66%;}
+    .tab-3{width:25%;}
+    .tab-4{width:33.33%;}
+    .tab-5{width:41.66%;}
+    .tab-6{width:50%;}
+    .tab-7{width:58.33%;}
+    .tab-8{width:66.66%;}
+    .tab-9{width:75%;}
+    .tab-10{width:83.33%;}
+    .tab-11{width:91.66%;}
+    .tab-12{width:100%;}
+
+    .row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+
+	.artimage {
+        text-align: center;
+    }
+
+    .artimage img{
+        height: 20rem;
+		object-fit: scale-down;
+		border:solid 5px rgb(231, 231, 231);
+    }
+
+	.header {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.topH1 {
+		width: 80%;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.pWall {
+		margin-left: 80px;
+	}
+	
+	.signWall {
+		margin-left: 80px;
+	}
+	
+	.art {
+		margin-left: 80px;
+	}
+	
+	h1 {
+		margin-left: 80px;
+	}
+	
+	.burger {
+		display: flex;
+		justify-content: flex-start;
+		width: 20%;
+	}
+	
+	.burgerIcone {
+		height: 25px;
+		width: 25px;
+	}
+	
+	.spanSignIn {
+		margin-right: 10px;
+	}
+	
+	.headerList1 {
+		display: flex;
+		justify-content: center;
+		margin-left: 150px;
+	}
+	
+	.headerList2 {
+		display: flex;
+		justify-content: flex-end;
+		width: 20%;
+		margin-left: 200px;
+	}
+	
+	
+	.headerList {
+		display: none;
+	}
+	
+	.altNav {
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	.altNavList {
+		display: none;
+	}
+	
+	footer {
+		flex-direction: column;
+		align-items: center;
+		border: 1px solid none;
+		background-color: rgb(231, 231, 231);
+		border-radius: 7px;
+		height: 1000px;
+	}
+	
+	.footerStart {
+		width: 50%;
+		display: flex;
+		align-items: center;
+	}
+	
+	.h3Dribbble {
+		width: 50%;
+		text-align: center;
+	}
+	
+	.footerDribbble {
+		width: 450px;
+		display: flex;
+		align-items: center;
+	}
+	
+	.h3Hiring {
+		width: 50%;
+		text-align: center;
+	}
+	
+	.footerHiring {
+		width: 50%;
+		align-items: center;
+		
+	}
+	
+	.h3Directories {
+		width: 50%;
+		text-align: center;
+	}
+	
+	.footerDirectories {
+		width: 50%;
+		align-items: center;
+	}
+	
+	.h3Jobs {
+		width: 50%;
+		text-align: center;
+	}
+	
+	.footerJobs {
+		width: 50%;
+		align-items: center;
+	}
+	
+	.footerEnd {
+		width: 50%;
+	}
+}
