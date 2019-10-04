@@ -1,322 +1,742 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>Popular shots on Dribbble</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="neoProjet1.css" />
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond|Ubuntu&display=swap" rel="stylesheet">
-</head>
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 
-<body>
-    <header>
-        <div>
-            <div class="burgerMenu" style="display: none">
-                <div class="burgerMenuAlign">
-                    <div class="borderFiller">
-                    </div>
-                    <ul>
-                        <a href=""><li class="lNav12 marginTopFooter" href="">Shots</li></a>
-                        <a href=""><li class="lNav12 marginTopFooter" href="">Designers</li></a>
-                        <a href=""><li class="lNav12 marginTopFooter" href="">Teams</li></a>
-                        <a href=""><li class="lNav12 marginTopFooter" href="">Community</li></a>
-                        <a href=""><li class="lNav12 marginTopFooter" href="">Jobs</li></a>
-                        <a href=""><li class="lNav12 marginTopFooter" href="">Hiring Designers ?</li></a>
-                    </ul>
-                    <div class="parla">
-                        <input class="parla" type="button" value="Sortir">
-                    </div>
+li {
+    list-style: none;
+}
 
-                </div>
-            </div>
-        </div>
+.sizeFooter {
+    font-size: 0.8rem;
+}
 
-        <nav class="row flex1">
-            <div class="nav1 dsk-12 tab-12 mob-12">
-                <img class="ici" src="https://img.icons8.com/cotton/2x/hamburger.png" />
-                <div class=" center dsk-2 tab-11 mob-10">
-                    <a href=""><img class="imgLogo" src="https://cdn.worldvectorlogo.com/logos/dribbble.svg" alt=""></a>
+.burgerMenu {
+    border: 1px solid black;
+    background-color: rgb(87, 112, 112);
+    width: 75%;
+    height: 300px;
+    z-index: 1;
+    position: fixed;
+    top: 0; 
+}
 
-                </div>
+.burgerMenuAlign {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
 
-                <div class="none dsk-6 tab-0 mob-0">
-                    <a class="lNav1" href="">Shots</a>
-                    <a class="lNav1" href="">Designers</a>
-                    <a class="lNav1" href="">Teams</a>
-                    <a class="lNav1" href="">Community</a>
-                    <a class="lNav1" href="">Jobs</a>
-                    <a class="lNav1" href="">Hiring Designers ?</a>
-                </div>
+.center {
+    text-align: center;
+    justify-content: center;
+}
 
-                <div class="sign desk-6 tab-3 mob-3">
-                    <a class="lNav1" href="">Sign in</a>
-                    <a class="none lNav1" href="">Sign up</a>
-                    <input class="none size" type="search" id="site-search" name="q"
-                        aria-label="Search through site content">
-                </div>
-            </div>
-        </nav>
-
-        <div class="font dsk-12 tab-12 mob-12">
-            <div class="rowHeader flex1 column">
-                <div class=" marginTopH dsk-6 tab-6 mob-12">
-                    <h1 class="margin">Discover the world's top designers & creatives</h1>
-                    <p class="margin">Dribbble is the leading destination to find & showcase creative work and home to
-                        the
-                        world's best design professionals.</p>
-                    <a>Sign up</a>
-                </div>
-                <div class=" dsk-6 tab-6 mob-12">
-                    <a href=""><img class="poule" src="poule.png" alt="Une poule"></a>
-                </div>
-            </div>
-            <div class="marginBotH">
-                <p>Art by <span>Gilbert Spuflin</span> de Arnac-la-Poste, France</p>
-            </div>
-            <div class="invisi">
-
-            </div>
-        </div>
-    </header>
-    <div class=" rowPop altNav dsk-12 tab-12 mob-12">
-
-        <a class="spanPop" href=""><span>Popular</span><img class="arrow"
-                src="https://image.flaticon.com/icons/png/512/60/60995.png" alt="favicon arrow"></a>
-        <div class="none marginR">
-            <a class="marginR" href="">All</a>
-            <a class="marginR" href="">Animation</a>
-            <a class="marginR" href="">Branding</a>
-            <a class="marginR" href="">Illustration</a>
-            <a class="marginR" href="">Mobile</a>
-            <a class="marginR" href="">Print</a>
-            <a class="marginR" href="">Product Design</a>
-            <a class="marginR" href="">Typography</a>
-            <a class="marginR" href="">Web Design</a>
-        </div>
-        <a class="filter"><img class="filterImg" src="https://image.flaticon.com/icons/svg/39/39461.svg"
-                alt="favicon filter">Filters</a>
-    </div>
-    <div class="rowI">
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7270026-Hogwarts-Castle">
-            <img
-                src="https://cdn.dribbble.com/users/15687/screenshots/7270026/media/4ddf881f6d70dfe944b72fd3c6f0f0f3.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7271998-Google-21">
-            <img
-                src="https://cdn.dribbble.com/users/103909/screenshots/7271998/media/383c9504030fa026fe6e1259a1229263.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7274184-Set-your-budget-home-version-1">
-            <img
-                src="https://cdn.dribbble.com/users/452635/screenshots/7274184/media/c3b0dbfe4c4b4391543e6c921956dd88.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7287706-Instagram">
-            <img
-                src="https://cdn.dribbble.com/users/76454/screenshots/7287706/media/c7248364730147fcceb319f2d0202603.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage"
-            href="https://dribbble.com/shots/7286230-High-technological-biomodification">
-            <img
-                src="https://cdn.dribbble.com/users/788099/screenshots/7286230/media/3651f2c9ebce3713c8e42b504240bfc1.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7291927-Beep-Boop">
-            <img
-                src="https://cdn.dribbble.com/users/238864/screenshots/7291927/media/66df5711b0a9b728f27d542e0485b18f.jpg">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7282174-Dashboard-crypto">
-            <img
-                src="https://cdn.dribbble.com/users/83671/screenshots/7282174/media/4105c4269605feb2ef42622a6e7c7c8f.jpg">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage"
-            href="https://dribbble.com/shots/7285721-HUSCON-A-Vintage-Spur-Serif-Typeface">
-            <img
-                src="https://cdn.dribbble.com/users/111288/screenshots/7285721/media/33659ded977c1dc80144f50ec64ae204.jpg">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7286009-Mobile-Bright-UI">
-            <img
-                src="https://cdn.dribbble.com/users/4016084/screenshots/7286009/media/97bcc90568f1deec428d552dbb855342.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7283784-Vehicles-Ride-Settings-SET-2">
-            <img
-                src="https://cdn.dribbble.com/users/1730219/screenshots/7283784/media/e116dede5409e216bc6a51e39214fa5f.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7290120-coffee-break">
-            <img
-                src="https://cdn.dribbble.com/users/2837665/screenshots/7290120/media/91402d7dd81457366826912376548e31.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7281303--VROOM">
-            <img
-                src="https://cdn.dribbble.com/users/532338/screenshots/7281303/media/c79a58099aa1d12bf5e991b3c7acb8ce.png">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7284296-Flaming-monkey">
-            <img
-                src="https://cdn.dribbble.com/users/1132234/screenshots/7284296/media/e4d1450c0de0247abd5e2047881e57e3.jpg">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7288732-Phantom">
-            <img
-                src="https://cdn.dribbble.com/users/818918/screenshots/7288732/media/91c5ad7c69c4c44e3708a65f85d3eae9.jpg">
-        </a>
-        <a class="mob-12 tab-6 dsk-4 artimage" href="https://dribbble.com/shots/7281570-waving-penguin">
-            <img
-                src="https://cdn.dribbble.com/users/892648/screenshots/7281570/media/315c322b5a47aee41e43060e34a61bd7.jpg">
-        </a>
-    </div>
-    <section>
-        <article>
-
-        </article>
-    </section>
-
-
-    <div class="signup dsk-12 tab-12 mob-12">
-
-        <a href="" class="signUpBorder">Sign up to continue</a>
-        <a href="" class="signInBorder">or sign in</a>
-
-    </div>
-    <footer class="marginLeftFooter sizeFooter row dsk-12 tab-12 mob-12">
-        <div class="footerStart dsk-5 tab-12 mob-12">
-            <img class="margin imgLogo" src="https://cdn.worldvectorlogo.com/logos/dribbble.svg" alt="">
-            <p class="margin">Show and tell for designers</p>
-            <p class="margin">What are you working on ? Dribbble is a community of designers sharing screenshots of
-                their work,
-                process, and projects.</p>
-            <div class="footerLiens rowFooter">
-                <a href=""><img class="socialM"
-                        src="https://cdn.dribbble.com/assets/icon-team-dribbble-8706862cdb0afa7f43f9e0218b073515f0a2bef19780961d324ae4620ebe249b.png"
-                        alt="Un logo"></a>
-                <a href=""><img class="socialM"
-                        src="https://cdn.dribbble.com/assets/icon-team-twitter-1fa6921d96b16e47f00ad0381ebbab59ba089c22b21f9bce783c9a4a077f40e9.png"
-                        alt="Un logo"></a>
-                <a href=""><img class="socialM"
-                        src="https://cdn.dribbble.com/assets/icon-team-facebook-4d63851997b88eb903858057327d93df9f950a55c5104a3a19206f2005682ea3.png"
-                        alt="Un logo"></a>
-                <a href=""><img class="socialM"
-                        src="https://cdn.dribbble.com/assets/icon-team-instagram-5dfdcd1478ea4a1c1e109b32adbd3878062aa1eb571da63ac379e0da1d2d5762.png"
-                        alt="Un logo"></a>
-                <a href=""><img class="socialM"
-                        src="https://cdn.dribbble.com/assets/icon-team-blog-2705adcb7ee6522051e175d10683208f0fa0ad17daa15fdf3f36aca99c540312.png"
-                        alt="Un logo"></a>
-            </diV>
-        </div>
-
-        <div class="dsk-6 tab-12 mob-12">
-            <div class="dsk-8 tab-12 mob-12">
-                <h3 class="footerDribbble"><a href="">Dribbble</a></h3>
-            </div>
-            <div class="row dsk-8 tab-12 mob-12">
-                <div class="footerDribbleList1  dsk-3 tab-8 mob-3">
-                    <a href="">About</a>
-                    <a href="">Help</a>
-                    <a href="">Contact</a>
-                    <a href="">Careers</a>
-                    <a href="">Terms</a>
-                    <a href="">Guidelines</a>
-                    <a href="">Privacy</a>
-                    <a href="">Playoffs</a>
-                </div>
-                <div class="footerDribbleList2  dsk-3 tab-8 mob-3">
-                    <a href="">Shop</a>
-                    <a href="">Testimonials</a>
-                    <a href="">Media Kit</a>
-                    <a href="">Advertise</a>
-                    <a href="">API</a>
-                    <a href="">Apps</a>
-                    <a href="">Places</a>
-                </div>
-            </div>
-        </div>
-        <div class=" marginTopFooter dsk-5 tab-12 mob-12">
-            <div class="alignCenter dsk-12 tab-12 mob-12">
-                <h3 class="margin"><a href="">Hiring at Dribbble</a></h3>
-                <ul>
-                    <li class="liPost"><a href="">Post a job</a></li>
-                    <li><a href="">Search designers</a></li>
-                    <li><a href="">Add your team</a></li>
-                </ul>
-            </div>
-            <div class="alignCenter footerDirectories">
-                <h3 class="margin marginTopFooter">Directories</h3>
-                <ul>
-                    <li class="liJobs"><a href="">Jobs</a></li>
-                    <li><a href="">Tags</a></li>
-                </ul>
-            </div>
-        </div>
+.ici {
+    color: rgb(12, 9, 9);
+    height: 10px;
+    width: 30px;
+    cursor: pointer;
+    display: none;
+    vertical-align: middle;
+}
 
 
 
-        <div class=" alignCenter dsk-4 tab-12 mob-12">
-            <h3 class="margin marginTopFooter"><a href="">Jobs for Designers</a></h3>
+.nav1 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 43, 43); 
+    
+}
 
-            <div class="marginTopFooter row">
-                <div class="">
-                    <a href=""><img class="logo"
-                            src="https://cdn.dribbble.com/users/1351232/avatars/normal/37f205f6405274a6b993b719fae6b790.png?1472563936"
-                            alt="Un logo"></a>
-                </div>
-                <div>
-                    <a class="marginJobs"><span class="marginJobs">Musixmatch</span></a>
-                    <a class="marginJobs"><span class="spanJobs">Product/UI Designer</span></a>
-                </div>
-            </div>
-            <div class="marginTopFooter row">
-                <div class="logoF1">
-                    <a href=""><img class="logo"
-                            src="https://cdn.dribbble.com/users/3775236/avatars/normal/0f57194cc172a2d2af1eed95983d14bb.png?1561765716"
-                            alt="Un logo"></a>
-                </div>
-                <div class="logo1bis">
-                    <a><span class="spanJobs">Bending Spoons</span></a><br>
-                    <a><span class="spanJobs">2D Game Artist</span></a>
-                </div>
-            </div>
-            <div class="marginTopFooter row">
-                <div class="logoF1">
-                    <a href=""><img class="logo"
-                            src="https://cdn.dribbble.com/users/2253861/avatars/normal/890766de270a1fd180371d81a846313f.png?1524048244"
-                            alt="Un logo"></a>
-                </div>
-                <div class="logo1bis">
-                    <a><span class="spanJobs">Dots</span></a><br>
-                    <a><span class="spanJobs">Visual Designer</span></a>
-                </div>
-            </div>
-            </ol>
-        </div>
-        <div class="dsk-4 tab-12 mob-12">
-        <div class=" marginTopFooter">
+.rowFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
 
-            <div class=" alignCenter dsk-8 tab-12 mob-5">
-                <a href="">From kickoff to sign off, streamline your entire production process with Asana. Try Asana
-                    for
-                    Free</a>
-            </div>
-        </div>
-        <div class="row alignCenter marginTopFooter">
-            <div>
-                <a href=""><img class="logo" src="https://www.freeiconspng.com/uploads/dribbble-icon-9.png"
-                        alt="Un logo"></a>
-            </div>
-            <div class="columnFooter alignFooter ">
-                <h4 ><strong>7,150,854</strong></h4>
-                <div>
-                    <p>shots dribbbled</p>
-                </div>
-            </div>
-        </div>
-    </div>
+.rowHeader  {
+    display:flex;
+    justify-content: space-around;
+}
+
+.rowPop{
+    justify-content: space-around;
+    display:flex;
+    align-items: center;
+}
+
+.row{
+    display:flex;
+    align-items: center;
+}
+
+.rowDribbble {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parla {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    height: 25px;
+    width: 25px;  
+    margin-right: 5px;
+}
+
+.flex1 {
+    flex:1;
+}
+
+.size{
+    font-size:40px;
+}
+
+.marginJobs {
+    margin-bottom: 5px;
+}
+
+.marginTopFooter {
+    margin-top: 10px;
+}
+.margin {
+   
+    margin-bottom: 10px;
+}
+
+.display {
+    display: none;
+}
+
+.borderFiller {
+    border: 1px solid none;
+    background-color: black;
+    height: 20px;
+}
+a {
+    text-decoration: none;
+    color: grey;  
+}
+
+.marginLeftFooter {
+    margin-left: 10px;
+}
+
+.lNav1 {
+    width: 100%;
+    padding-left: 20px;
+    font-size: 0.7em;
+    vertical-align: middle;
+    height: 15px;
+    padding-top: 4px;
+}
+
+.lNav12 {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 0.8em;
+    color: black;
+}
+
+
+.size {
+    padding-left: 20px;
+    font-size: 0.7em;
+    width: 35%;
+    height:10px;
+    padding-top: 5px;
+    vertical-align: middle;
+}
+
+.font {
+    background-color: rgb(211, 211, 211);
+}
+
+.marginTopH {
+    margin-top:100px;
+    margin-left: 70px;
+    
+}
+
+.marginBotH {
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.invisi {
+    border: 1px, solid, none;
+    height: 10px;
+}
+
+.poule {
+    height: 400px;
+    width: 400px;
+}
+
+.altNav {
+    display: flex;
+    border: 1px solid none;
+    background-color: beige;
+    height: 50px;
+    border-radius: 7px;
+}
+
+
+.arrow {
+    height: 20px;
+    width: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.filterImg {
+	height: 20px;
+	width: 20px;
+	padding-top: 10px;
+	padding-right: 10px;	
+}
+
+
+.spanPop {
+    border: 1px solid none;
+    background-color: rgb(214, 214, 214);
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    padding-left: 5px;
+}
+
+.filter {
+    border: 1px solid none;
+    background-color: rgb(214, 214, 214);
+    border-radius: 7px;
+    height: 30px;
+    width: 100px;
+    padding-left: 10px;
+}
+
+.marginR {
+    margin-left: 10px;
+}
+
+.signup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;    
+}
+
+.signUpBorder {
+	background-color: rgba(253, 76, 209, 0.733);
+	color: white;
+	border: 1px solid none;
+	border-radius: 7px;
+	padding: 10px 10px 10px 10px; 
+	width: 200px;
+	text-align: center;
+}
+
+.signInBorder {
+    color: rgb(0, 153, 255);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.socialM {
+	width: 20px;
+	height: 20px;
+	
+}
+
+footer {
+    display: flex;
+}
+
+.footerDribbleList1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDribbleList2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+ 
+}
+.footerDribbble {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.footerDribbleList {
+   width:100%;
+}
+
+.columnFooterDsk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rowI{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.artimage img {
+	height: 20rem;
+	object-fit: scale-down;
+	border:solid 5px rgb(231, 231, 231);
+}
+
+.artimage {
+	text-align: center;
+}
+
+.topButton a img{
+	height: 50px;
+	margin-right: 20px;
+}
+
+.topButton {
+	text-align: right;
+	bottom: 20px;
+	position: fixed;
+	opacity: 0.4;
+	right: 0%;
+}
+
+.topButton:hover {
+	opacity: 1;
+}
+
+@media screen and (max-width: 750px) {
+    .mob-0 {display: none}
+    .mob-1 {width: 8.33%}
+    .mob-2 {width: 16.66%}
+    .mob-3 {width: 25%}
+    .mob-4 {width: 33.33%}
+    .mob-5 {width: 41.66%}
+    .mob-6 {width: 50%}
+    .mob-7 {width: 58.33%}
+    .mob-8 {width: 66.66%}
+    .mob-9 {width: 75%}
+    .mob-10 {width: 83.33%}
+    .mob-11 {width: 91.66%}
+    .mob-12 {width: 100%}
+  
+
+    .ici {
+        color: rgb(12, 9, 9);
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        display: flex;
+    }
+    
+    
+    .imgLogo {
+        width: 80px;
+        vertical-align: center;
+        padding-top: 5px;
+    }
+    
+    .none {
+        display: none;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .column {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .poule {
+        width: 200px;
+        height: 200px;
+        
+    }
+    .marginTop {
+        margin-top:10px;
+        margin-left: 5px;
+        
+    }
+    
+    .marginBot {
+        margin-left: 5px;
+        text-align: center;
+    }
+    
+
+	footer {
+		flex-direction: column;
+        height: 780px;
+        align-items: flex-end;
+	}
+
+    .footerStart {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;  
+        width: 200px;
+        text-align: left;
+        color: rgb(139, 139, 139);
+        margin-top: 20px;
+        margin-right: 10px;
+        
+    }
+
+    .footerLiens {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+        margin-top:15px;
+        text-align: left;
+    }
+    
+  .footerDribbble {
+    width: 50%;
+  }
+
+    .columnFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .marginR2 {
+        margin-top: 20px;
+    }
+
+    
 
 
 
-    </footer>
-    <div class="row columnFooter  marginTopFooter marginR dsk-6 tab-12 mob-12">
-        <p class="marginR">C 2019 Dribbble. All rights reserved.</p>
-        <h5 class="marginR marginR2">Made with remotely from</h5>
-    </div>
+    
+    .row{
+        display:flex;
+        align-items: flex-start;
+    }
 
 
-</body>
-<script src="neoProjet1.js"></script>
+    .alignFooter {
+        align-items: flex-start;
+    }
 
-</html>
+  .rowI{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+		justify-content: space-evenly;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+	
+	.artimage {
+        text-align: center;
+    }
+
+    .artimage img{
+        height: 20rem;
+		object-fit: scale-down;
+		border:solid 5px rgb(231, 231, 231);
+	}
+
+	.topButton a img{
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.topButton {
+		text-align: right;
+		bottom: 20px;
+		position: fixed;
+		opacity: 0.4;
+		right: 0%;
+	}
+
+	.topButton:hover {
+		opacity: 1;
+	}
+}
+
+}
+
+@media screen and (min-width: 751px) and (max-width: 1024px)  {
+    .tab-0 {width: none}
+    .tab-1 {width: 8.33%}
+    .tab-2 {width: 16.66%}
+    .tab-3 {width: 25%}
+    .tab-4 {width: 33.33%}
+    .tab-5 {width: 41.66%}
+    .tab-6 {width: 50%}
+    .tab-7 {width: 58.33%}
+    .tab-8 {width: 66.66%}
+    .tab-9 {width: 75%}
+    .tab-10 {width: 83.33%}
+    .tab-11 {width: 91.66%}
+    .tab-12 {width: 100%}
+    
+    
+    .ici {
+        color: rgb(12, 9, 9);
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        display: flex;
+        padding-top: 3px;
+    }
+    
+    
+    .imgLogo {
+        width: 80px;
+        
+    }
+    
+    .none {
+        display: none;
+    }
+    
+    .center {
+        justify-content: space-between;
+        text-align: center;
+        
+    }
+
+
+
+
+    .marginTop {
+        margin-top:10px;
+        margin-left: 5px;
+        
+    }
+    
+    .marginBot {
+        margin-left: 5px;
+        text-align: center;
+    }
+    
+
+	footer {
+		flex-direction: column;
+        height: 780px;
+        align-items: center;
+	}
+
+    .footerStart {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;  
+        width: 200px;
+        text-align: left;
+        color: rgb(139, 139, 139);
+        margin-top: 20px;
+        margin-right: 10px;
+        align-items: center;
+        
+    }
+
+    .footerLiens {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 200px;
+        margin-top:15px;
+        text-align: left;
+        align-items: center;
+    }
+
+    .footerDribbleList1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 80px;
+        padding-left: 200px;
+    }
+    
+    .footerDribbleList2 {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+        padding-right: 200px;
+        align-items: center;
+    }
+    .alignCenter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+  
+
+    .columnFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .marginR2 {
+        margin-top: 20px;
+    }
+
+    
+
+
+
+    
+    .row{
+        display:flex;
+        align-items: flex-start;
+        align-items: center;
+    }
+
+
+    .alignFooter {
+        align-items: flex-start;
+        align-items: center;
+    }
+
+
+    
+    .rowI{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .artimage {
+        text-align: center;
+    }
+    
+    .artimage img{
+        height: 20rem;
+        object-fit: scale-down;
+        border:solid 5px rgb(231, 231, 231);
+    }
+    
+}
+
+
+@media screen and (min-width: 1025px)  {
+    .dsk-0 {width: none}
+    .dsk-1 {width: 8.33%}
+    .dsk-2 {width: 16.66%}
+    .dsk-3 {width: 25%}
+    .dsk-4 {width: 33.33%}
+    .dsk-5 {width: 41.66%}
+    .dsk-6 {width: 50%}
+    .dsk-7 {width: 58.33%}
+    .dsk-8 {width: 66.66%}
+    .dsk-9 {width: 75%}
+    .dsk-10 {width: 83.33%}
+    .dsk-11 {width: 91.66%}
+    .dsk-12 {width: 100%}
+    
+    .imgLogo {
+        width: 100px;
+    }
+    
+    .rowI{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+		justify-content: space-evenly;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+
+	.artimage {
+        text-align: center;
+    }
+
+    .artimage img{
+        height: 20rem;
+		object-fit: scale-down;
+		border:solid 5px rgb(231, 231, 231);
+    }
+
+	.topButton a img{
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.topButton {
+		text-align: right;
+		bottom: 20px;
+		position: fixed;
+		opacity: 0.4;
+		right: 0%;
+	}
+
+	.topButton:hover {
+		opacity: 1;
+	}
+}
+
+
+        .marginTop {
+        margin-top:10px;
+        margin-left: 5px;
+        
+    }
+    
+    .marginBot {
+        margin-left: 5px;
+        text-align: center;
+    }
+    
+
+
+    
+
+
+
+    
+    .row{
+        display:flex;
+        align-items: flex-start;
+    }
+
+
+    .alignFooter {
+        align-items: flex-start;
+    }
+
+
+}
