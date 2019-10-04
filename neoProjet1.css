@@ -37,27 +37,21 @@
 	text-align: center;
 }
 
-#topAnchor {
-    position: fixed;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .topButton a img{
-    height: 50px;
-    margin-right: 20px;
+	height: 50px;
+	margin-right: 20px;
 }
 
 .topButton {
-    text-align: right;
-    bottom: 20px;
-    position: fixed;
-    opacity: 0.4;
-    right: 0%;
+	text-align: right;
+	bottom: 20px;
+	position: fixed;
+	opacity: 0.4;
+	right: 0%;
 }
 
 .topButton:hover {
-    opacity: 1;
+	opacity: 1;
 }
 
 @media screen and (max-width: 869px) {
@@ -94,24 +88,24 @@
         height: 20rem;
 		object-fit: scale-down;
 		border:solid 5px rgb(231, 231, 231);
-    }
+	}
 
-    .topButton a img{
-        height: 50px;
-        margin-right: 20px;
-    }
-    
-    .topButton {
-        text-align: right;
-        bottom: 20px;
-        position: fixed;
-        opacity: 0.4;
-        right: 0%;
-    }
-    
-    .topButton:hover {
-        opacity: 1;
-    }
+	.topButton a img{
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.topButton {
+		text-align: right;
+		bottom: 20px;
+		position: fixed;
+		opacity: 0.4;
+		right: 0%;
+	}
+
+	.topButton:hover {
+		opacity: 1;
+	}
 }
 
 @media screen and (min-width: 870px) and (max-width:1260px) {
@@ -149,20 +143,20 @@
 		border:solid 5px rgb(231, 231, 231);
     }
 
-    .topButton a img{
-        height: 50px;
-        margin-right: 20px;
-    }
-    
-    .topButton {
-        text-align: right;
-        bottom: 20px;
-        position: fixed;
-        opacity: 0.4;
-        right: 0%;
-    }
-    
-    .topButton:hover {
-        opacity: 1;
-    }
+	.topButton a img{
+		height: 50px;
+		margin-right: 20px;
+	}
+
+	.topButton {
+		text-align: right;
+		bottom: 20px;
+		position: fixed;
+		opacity: 0.4;
+		right: 0%;
+	}
+
+	.topButton:hover {
+		opacity: 1;
+	}
 }
