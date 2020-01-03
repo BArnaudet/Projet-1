@@ -1,4 +1,4 @@
-1er Projet:
+> 1er Projet: Reproduction de site existant
 
 Reproduction du site www.dribbble.com en HTML et CSS dans un premiers temps, puis ajout du JavaScript
 
